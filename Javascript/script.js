@@ -49,3 +49,23 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Adiciona funcionalidade aos botões do carrinho
+const botoesCarrinho = document.querySelectorAll('.btn-carrinho');
+botoesCarrinho.forEach(botao => {
+    botao.addEventListener('click', function() {
+        const produto = this.parentElement;
+        const nomeProduto = produto.querySelector('h3').textContent;
+        
+        // Animação de adição ao carrinho
+        this.textContent = 'Adicionado!';
+        this.style.backgroundColor = '#4CAF50';
+        
+        setTimeout(() => {
+            this.textContent = 'Adicionar ao carrinho';
+            this.style.backgroundColor = '#ff6b00';
+        }, 2000);
+        
+        console.log(`Produto "${nomeProduto}" adicionado ao carrinho`);
+    });
+});
