@@ -11,14 +11,6 @@ Loja de games fictícia com uma interface moderna, responsiva e construída com 
 
 ---
 
-## 🖼️ Prévia
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/67407559/267008582-5f9c4091-7597-4c5a-8318-d622e20e3b6c.png" alt="Preview da Loja de Games" width="800">
-</p>
-
----
-
 ## 🚀 Funcionalidades
 
 ✅ Design responsivo  
@@ -68,14 +60,6 @@ A fictional video game store with a clean, modern UI built using **HTML**, **CSS
 
 🌐 **Live Preview:**  
 👉 [games-store-tawny.vercel.app](https://games-store-tawny.vercel.app/)
-
----
-
-## 🖼️ Preview
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/67407559/267008582-5f9c4091-7597-4c5a-8318-d622e20e3b6c.png" alt="Games Store Preview" width="800">
-</p>
 
 ---
 
